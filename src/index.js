@@ -1,4 +1,5 @@
 // 入口文件
 import ReactDom from "react-dom"
+import App from "./App"
 
-ReactDom.render(<h1>Hello World</h1>, document.getElementById("root"))
+ReactDom.render(<App />, document.getElementById("root"))
